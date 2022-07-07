@@ -1,0 +1,59 @@
+form {
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+h1 {
+    font-family: 'Kosugi', sans-serif;
+}
+
+h5 {
+    font-family: 'Kosugi', sans-serif;
+}
+.btn-primary {
+    color: #e5222a;
+    background-color: white;
+    border-color: #e5222a;
+    margin-top: 10px;
+
+}
+
+.container {
+    margin-top: 30px;
+}
+
+#aboutJumb {
+    box-shadow: 2px 2px 5px 2px #80755C;
+    background-color: #08415c;
+    color: #F5F5F5;
+}
+#aboutImage {
+    height: 38rem;
+    width: 16rem;
+    box-shadow: 2px 2px 5px 2px #80755C;
+    background-color: #08415c;
+    color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+hr{
+    background-color: #F5F5F5;
+}
+a#linkProj:link {
+    color: #e5222a;
+}
+
+/* visited link */
+
+a#linkProj:visited {
+    color: #e5222a;
+}
+
+/* mouse over link */
+
+a#linkProj:hover {
+    color: #F5F5F5;
+}

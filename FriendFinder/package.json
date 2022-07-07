@@ -1,0 +1,29 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Take a survey and find a friend.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avickerman/FriendFinder.git"
+  },
+  "keywords": [
+    "FriendFinder"
+  ],
+  "author": "Andrew Vickerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avickerman/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Avickerman/FriendFinder#readme"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "FriendFinder",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/node.js"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/public/assets/img/burgerimg.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/assets/css/burger_style.css" type="text/css" />
+    <title>Burgers: Node Express Handlebars</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: greenyellow;
+        }
+
+        .jumbotron h1 {
+            color: red;
+            font-weight: bold;
+
+        }
+
+        .jumbotron {
+            padding-top: 1%;
+            background-color: transparent !important;
+        }
+
+        img {
+            margin-top: 5%;
+            width: 15%;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .submitFont {
+            font-size: 32px;
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://avickerman.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://avickerman.github.io/Bootstrap-Portfolio/index.html">Index</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://avickerman.github.io/Andrew-Vickerman-Portfolio/resume/resume.html">Résumé</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <center>
+            <div class="row">
+                <img src="/public/assets/img/burgerimg.jpg">
+                <div class="jumbotron">
+                    <h1>Eat a Burger</h1>
+                    <p>Choose a Burger from the list.</p>
+                    <p>Then devour it.</p>
+                    <br>
+                    <p>Don't see a burger you want to Eat?</p>
+                    <p>Then enter a burger below and keep track of the burgers you've devoured.</p>
+                </div>
+            </div>
+        </center>
+        <br> {{{body}}}
+        <br>
+        <br>
+
+        <form action="burger/create" method="POST">
+
+            <div class="row">
+
+                <div class="col-md-3"></div>
+
+
+                <div class="form-group col-md-6">
+                    <center>
+                        <label for="new_burger" class="submitFont">Add a new burger!</label>
+                    </center>
+                    <textarea class="form-control" type="text" columns="6" rows="2" id="new_burger required value=" name="burger_name"></textarea>
+                </div>
+
+                <div class="col-md-3"></div>
+            </div>
+
+
+            <center>
+                <button id="submit-button" type="submit" class="btn btn-danger">Make my Burger!</button>
+            </center>
+        </form>
+        <br>
+    </div>
+
+</body>
+
+</html>

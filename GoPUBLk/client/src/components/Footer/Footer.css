@@ -1,0 +1,12 @@
+.footer {
+  min-height: 100px;
+  background: #e5222a;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Kosugi', sans-serif;
+}
+#footerHeader {
+  padding-top: 20px;
+  margin-top: 20px;
+}
