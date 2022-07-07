@@ -1,0 +1,123 @@
+body {
+    background-image: url("http://getwallpapers.com/wallpaper/full/f/9/8/1127302-vertical-cool-black-background-designs-2170x1472-download.jpg");
+  }
+
+.container {
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: 3px;
+}
+
+.container2 {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.container3 {
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 40px;
+}
+
+.form-group {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#send {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    padding-left: 8px;
+    margin-left: 6px;
+}
+
+#imgCard {
+    height: 300px;
+    width: 300px;
+    margin-left: 6px;
+    margin: auto;
+}
+
+h4 {
+    align-content: left;
+    text-align: left;
+    color: whitesmoke;
+}
+
+p {
+    align-content: left;
+    text-align: left;
+
+
+}
+
+h3 {
+    align-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+#courseText {
+    font-style: italic;
+}
+
+#cright {
+    color: whitesmoke;
+}
+
+#label {
+    color: whitesmoke;
+}
+
+#indexText {
+    color: whitesmoke;
+}
+
+#contactTextHead {
+    color: whitesmoke;
+}
+
+#textName, #textEmail, #textMessage {
+    color: whitesmoke;
+}
+
+#indexText {
+    color: whitesmoke;
+}
+
+.container5 {
+    border-style: solid;
+    border-width: 1px;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 40px;
+    padding: 3px;
+}
+
+#codingCert {
+    align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
