@@ -1,0 +1,43 @@
+body {
+    background-image: url("../C:\Users\Avick\Documents\codingBootcamp\Homework\unit-4-game\assets\images\minnesota.jpg");
+  }
+  
+  
+  .header {
+    font-size: 2.5em;
+  }
+  
+  .scoreboard {
+    font-size: 2.5em;
+  }
+  
+  .numberbox {
+    margin-top: 90px;
+  }
+  
+  .numberbox p {
+    font-size: 3em;
+    display: block;
+  }
+  
+  .logos {
+    margin-top: 60px;
+  }
+  
+  .logos img {
+    width: 100px;
+    display: inline-block;
+    margin: 60px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  .modal-content {
+    padding: 30px;
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+  }

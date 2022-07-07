@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://bringmethenews.com/.image/t_share/MTU0MDQ4NTExMTU0Mzk4Mjkw/image-placeholder-title.jpg");
+    color: white;
+    background-position: bottom;
+    text-align: center;
+}
+
+.text-muted{
+	color: blue;
+}
+.last-seconds{
+  color: red;
+}
+.option{
+  margin: 15px;
+}
+

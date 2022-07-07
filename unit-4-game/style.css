@@ -1,0 +1,52 @@
+body {
+    font-family: 'VT323', monospace;
+    background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjKlcWn697bAhVFIqwKHYiTAHAQjRx6BAgBEAU&url=http%3A%2F%2Falphanewsmn.com%2Fdoes-minnesota-suck%2F&psig=AOvVaw0FD-_sg0Bb4QBZQ8tiU6Av&ust=1529467072623865");
+    color: white;
+  }
+  
+  
+  .header {
+    font-size: 2.5em;
+  }
+  
+  .scoreboard {
+    font-size: 2.5em;
+  }
+  
+  .numberbox {
+    margin-top: 90px;
+  }
+  
+  .numberbox p {
+    font-size: 3em;
+    display: block;
+  }
+  
+  .logos {
+    margin-top: 60px;
+  }
+  
+  .logos img {
+    width: 100px;
+    display: inline-block;
+    margin: 60px;
+  }
+  
+  h1 {
+    font-size: 7em;
+    text-align: center;
+  }
+  
+  button, button:active, button:hover, button:visited, button:focus  {
+    border: none;
+    background: none;
+    border-style: none;
+    outline: none;
+  }
+  
+  .modal-content {
+    padding: 30px;
+    font-size: 0.75em;
+    text-align: center;
+    color: black;
+  }
