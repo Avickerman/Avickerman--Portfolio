@@ -1,0 +1,29 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const NavTabs = () => (
+    <ul className="nav nav-tabs">
+        <li className="nav-item">
+            <Link
+                to="/"
+                className={
+                    window.location.pathname === "/components/Search/Search.js" ? "nav-link active" : "nav-link"
+                }
+            >
+                Home
+      </Link>
+        </li>
+        <li className="nav-item">
+            <Link
+                to="/Saved"
+                className={
+                    window.location.pathname === "/components/Saved/Saved.js" ? "nav-link active" : "nav-link"
+                }
+            >
+                Saved Articles
+      </Link>
+        </li>
+    </ul>
+);
+
+export default NavTabs;

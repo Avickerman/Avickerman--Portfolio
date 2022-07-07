@@ -1,0 +1,114 @@
+* {
+    color: whitesmoke;
+}
+
+
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    background: linear-gradient(0deg,rgba(71, 71, 71, 0.7),rgba(71, 71, 71, 0.7)), url("../images/bark.jpg");
+    
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+#main-title {
+    background-image: url("../images/plaid.jpg");
+    background-size: auto 100%;
+}
+
+.pleasework {
+    background-image: url("../images/plaid.jpg");
+    background-size: auto 100%;
+}
+
+#log {
+    background: linear-gradient(0deg,rgba(71, 71, 71, 0.7),rgba(71, 71, 71, 0.7)), url("../images/bark.jpg");
+}
+
+#title1 {
+    /* background-image: url("../images/plaid.jpg");
+    background-size: auto 100%; */
+    text-align: center;
+}
+
+.container2 {
+    
+    font-family: 'Archivo Narrow', sans-serif;
+    /* width: 100%; */
+   
+}
+
+#timeAndDist {
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+form, tr {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.card-title {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.card-body {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 15%;
+    margin: 1px;;
+}
+
+#image1 {
+    float: left;
+    margin-top: -.5em;
+    vertical-align: baseline;
+}
+
+#image2 {
+    float: right;
+    /* background-image: url("../images/plaid.jpg"); */
+    background-size: auto 100%;
+}
+
+#title2 {
+    float: right;
+    /* background-image: url("../images/plaid.jpg"); */
+    background-size: auto 100%;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Faster One', cursive;
+    display: inline-block;
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+
+#current-forecast {
+    border-style: solid; 
+}
+
+#future-forecast {
+    border-style: solid;
+}
+
+#city-time {
+    border-style: solid;
+}
+
+#buttons, #missed, #add-Run-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+}
