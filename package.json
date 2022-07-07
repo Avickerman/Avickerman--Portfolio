@@ -1,0 +1,22 @@
+{
+  "name": "andrew-vickerman-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio of Andrew Vickerman",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avickerman/Andrew-Vickerman-Portfolio.git"
+  },
+  "keywords": [
+    "Vickerman"
+  ],
+  "author": "Andrew Vickerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avickerman/Andrew-Vickerman-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Avickerman/Andrew-Vickerman-Portfolio#readme"
+}
